@@ -1,7 +1,7 @@
 
 # Simple DBMS CRUD Operations Using JavaFX
 
-The Project Simulate DBMS Operation Using JavaFX and MySQL
+The Project Simulate DBMS Operations Using JavaFX and MySQL
 ##  CRUD Operations 
 
 - Add New Record
@@ -10,6 +10,8 @@ The Project Simulate DBMS Operation Using JavaFX and MySQL
 - Show All Records
 - Update Record
 
+## Test and Run
+![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
 
 
 ## Authors
