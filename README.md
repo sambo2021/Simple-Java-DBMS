@@ -11,7 +11,8 @@ The Project Simulate DBMS Operations Using JavaFX and MySQL
 - Update Record
 
 ## Test and Run
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+![github](https://user-images.githubusercontent.com/77445231/152377031-dbc42feb-0fff-4fd2-83e4-908b0dfec21f.gif)
+
 
 
 ## Authors
