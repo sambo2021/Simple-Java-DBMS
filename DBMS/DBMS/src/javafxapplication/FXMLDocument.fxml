@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="798.0" style="-fx-background-color: #578795;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication.FXMLDocumentController">
+    <children>
+        <Button fx:id="insert" layoutX="24.0" layoutY="405.0" onAction="#handleButtonAction" style="-fx-background-color: #2B4675;" text="Insert" textFill="WHITE" />
+      <VBox layoutX="11.0" layoutY="25.0" prefHeight="366.0" prefWidth="118.0" spacing="45.0">
+         <children>
+              <Label fx:id="label" minHeight="16" minWidth="69" text="ID">
+               <font>
+                  <Font name="Arial Narrow Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="label1" minHeight="16" minWidth="69" text="First Name">
+               <font>
+                  <Font name="Arial Narrow Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="label11" minHeight="16" minWidth="69" text="Middle Name">
+               <font>
+                  <Font name="Arial Narrow Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="label111" minHeight="16" minWidth="69" text="Last Name">
+               <font>
+                  <Font name="Arial Narrow Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="label1111" minHeight="16" minWidth="69" text="Email">
+               <font>
+                  <Font name="Arial Narrow Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="label11111" minHeight="16" minWidth="69" text="Phone">
+               <font>
+                  <Font name="Arial Narrow Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="108.0" layoutY="25.0" prefHeight="350.0" prefWidth="186.0" spacing="40.0">
+         <children>
+            <TextField fx:id="id" editable="false" />
+            <TextField fx:id="fname" />
+            <TextField fx:id="mname" />
+            <TextField fx:id="lname" />
+            <TextField fx:id="email" />
+            <TextField fx:id="phone" />
+         </children>
+      </VBox>
+      <TableView fx:id="contactsList" layoutX="309.0" layoutY="14.0" prefHeight="366.0" prefWidth="484.0">
+        <columns>
+          <TableColumn fx:id="IDcol" prefWidth="31.0" text="ID" />
+          <TableColumn fx:id="fnamecol" prefWidth="73.0" text="First Name" />
+            <TableColumn fx:id="midnamecol" prefWidth="91.0" text="Middle Name" />
+            <TableColumn fx:id="lastnamecol" prefWidth="73.0" text="Last Name" />
+            <TableColumn fx:id="emailcol" prefWidth="107.0" text="Email" />
+            <TableColumn fx:id="phonecol" prefWidth="107.0" text="Phone" />
+        </columns>
+      </TableView>
+      <Button fx:id="update" layoutX="133.0" layoutY="405.0" onAction="#handleButtonAction" style="-fx-background-color: #2B4675;" text="Update" textFill="WHITE" />
+      <Button fx:id="delete" layoutX="243.0" layoutY="405.0" onAction="#handleButtonAction" style="-fx-background-color: #2B4675;" text="Delete" textFill="WHITE" />
+      <Button fx:id="first" layoutX="381.0" layoutY="405.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: #2B4675;" text="First" textFill="WHITE" />
+      <Button fx:id="next" layoutX="473.0" layoutY="405.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: #2B4675;" text="Next" textFill="WHITE" />
+      <Button fx:id="prev" layoutX="558.0" layoutY="405.0" onAction="#handleButtonAction" style="-fx-background-color: #2B4675;" text="Previous" textFill="WHITE" />
+      <Button fx:id="last" layoutX="653.0" layoutY="405.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: #2B4675;" text="Last" textFill="WHITE" />
+    </children>
+</AnchorPane>
